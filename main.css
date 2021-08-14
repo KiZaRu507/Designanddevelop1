@@ -81,6 +81,7 @@ p{
     font-weight: 400;
     color: white;
     margin-top: 100px;
+    cursor:pointer;
 
 }
 .bottom_container{
@@ -216,6 +217,7 @@ input{
 .button2{
     color:white;
     font-family: Poppins;
+    cursor:pointer;
 }
 footer img{
     position: absolute;
