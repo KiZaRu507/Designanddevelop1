@@ -1,0 +1,236 @@
+body{
+    background-color: #1C2230;
+    padding: 0%;
+}
+.logo1{
+
+    background-color: #1C2230;
+    display: inline-block;
+    width: 176px;
+    height: 55px;
+    cursor: pointer;
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 5%;
+
+}
+.nav_links{
+    list-style: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a{
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+.image1{
+    margin: 10% 25%;
+    display: block;
+}
+.middle_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+}
+.mountain{
+    width: 100%;
+    height: 418px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    margin: 0px;
+}
+p{
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 400;
+    font-size:20px;
+    color: white;
+    margin: 0px;
+    
+}
+.getstarted{
+    display: block;
+    width:274px;
+    border-radius: 113px;
+    background-color: #8CDAE4;
+    height: 55px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: 100px;
+
+}
+.bottom_container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #181F2B;
+    justify-content: center;
+}
+.row1{
+    display: flex;
+    align-content: space-between;
+}
+.row2{
+    display: flex;
+    align-content: space-between;
+}
+.row2 h1,.row1 h1{
+    font-size: 20px;
+}
+.row1 p,.row2 p{
+    font-size: 15px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+.block img{
+    margin-bottom: 30px;
+}
+.productive{
+    display: flex;
+}
+.productive h1{
+    font-size: 36px;
+}
+.productive p{
+    font-size: 15px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left:10px;
+    align-items: flex-start;
+}
+.container span{
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+
+}
+.reviewer img{
+    border-radius: 113px;
+}
+.boxes{
+    background-color: #21293C;
+   
+}
+.reviewof p{
+    font-size: 12px;
+    font-weight: normal;
+}
+.reviewer img{
+    width: 35px;
+    height: 37px;
+}
+.reviewer h3{
+    font-size: 8px;
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+
+}
+.reviewer{
+    display: flex;
+    justify-content: flex-start ;
+}
+.Sathish{
+    display: flex;
+    flex-direction: column;
+
+}
+.reviewof{
+    display: flex;
+    flex-direction: column;
+    justify-content: left   ;
+    border:solid #181E2A;
+    border-width: 30px;
+    padding: 10px 30px ;
+    line-height: 20px;
+}
+.emailbox h1{
+    font-size: 28px;
+}
+.emailbox p{
+    font-size: 15px;
+    margin:  10px 30px;
+}
+
+input{
+    border-radius: 113px;
+    width: 486px;
+    height: 51px;
+    margin-right: 20px;
+}
+.inputbhai button{
+    width: 207px;
+    height:53px;
+    border-radius: 113px;
+    border: none;
+    background-color: #8BDAE3;
+}
+.inputbhai{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.emailbox{
+    background-color: #1C2230;
+    margin-bottom: 30px;
+    height: 271px;
+
+}
+.button2{
+    color:white;
+    font-family: Poppins;
+}
+footer img{
+    position: absolute;
+    left:5%;
+    right:95%;
+}
+footer a{
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+footer a:hover{
+    color: violet;
+}
